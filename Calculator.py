@@ -1,12 +1,4 @@
 import streamlit as st
-from PIL import Image
-
-logo = Image.open("C:\streamlit\photo\logo2.png")
-
-st.set_page_config(
-    page_icon=logo
-)
-
 
 def kali_kalian_def(): 
     if kali_kalian == "+":
